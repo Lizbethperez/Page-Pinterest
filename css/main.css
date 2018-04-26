@@ -11,20 +11,69 @@ header > * {
 }
 
 header > h1 {
-    width: 5%
+    width: 10%
 }
 
 header > form {
-    width:70%;
+    width:60%;
 
 }
-header > navbar{
+header > form > input{
+    width: 65%;
+}
+header > nav{
     width: 20%;
+    padding-left: 5em;
+    font-size: 1em;
 }
 
+div img {
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%; 
+    width: 100%;
+}
 .col {
     float:left;
-    width: 25%;
-    height: 25%;
+    width: 20%;
     margin: 1em 1em;
+}
+
+.format-image:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+span {
+    padding-left:2em;
+    font-weight: bolder;
+    color:#AE0E76; 
+}
+
+header > nav a{
+   color:#AE0E76;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+a:hover {
+    border-radius: 50%;
+    background-color: #CA7CAF;
+    opacity: 0.5%;
+    padding: 0.5em;
+}
+section > nav a {
+    display: inline-block;
+    position: relative;
+    width: 10em;
+    left:5em;
+    top:1em;
+    border: 1px solid black;
+    border-radius: 5%;
+    color:#AE0E76;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0.5em;
+    background-color: #CA7CAF;
 }
