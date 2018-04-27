@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PINTEREST</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Poiret+One|Shadows+Into+Light" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
     <header>
        <h1>
-        <i class="fab fa-pinterest"></i>
-          <!--buscar el icono en fontawesome para piterest-->
+            <i class="fab fa-pinterest"></i>
+
        </h1>
        <form>
-           <label for="search-input">BUSCAR</label>
+           <i class="fas fa-search"></i> <label for="search-input">BUSCAR</label>
            <input type="text" id="search-input">
            <select name="" id="">
                <option value="todos">Todos los Pines</option>
@@ -24,24 +27,28 @@
                <option value="boards">Tableros</option>
            </select>
        </form>
+       <!--MENU DE NAVEGACIONPRINCIPAL-->
         <nav>
-           <a href="#">INICIO</a>
-           <a href="#">EXPLORAR</a>
-           <a href="#">PERFIL</a>
+           <a class="navegator" href="#">INICIO</a>
+           <a class="navegator" href="#">EXPLORAR</a>
+           <i class="fas fa-user"></i><a class="navegator" href="#">PERFIL</a><i class="fas fa-comment-dots"></i>
         </nav>
-       
+
     </header>
     <section>
+      <!--MENU DE NAVEGACION SECUNDARIO-->
         <nav>
-            <a href="#">TENDENCIAS</a>
-            <a href="#">MODA</a>
-            <a href="#">PERFIL</a>
-            <a href="#">MAQUILLAJE</a>
-            <a href="#">IDEAS</a>
-            <a href="#">LIBROS</a>
+            <a class="navegator" class="format-navega-two" href="#">TENDENCIAS</a>
+            <a class="navegator"  href="#">MODA</a>
+            <a class="navegator" href="#">PERFIL</a>
+            <a class="navegator" href="#">MAQUILLAJE</a>
+            <a class="navegator" href="#">IDEAS</a>
+            <a class="navegator" href="#">LIBROS</a>
+            <a class="navegator" href="#">MEMES CHISTOSOS</a>
          </nav>
     </section>
     <main>
+      <!--PRIMERA SECCION-->
         <section class="col">
             <article class="pin">
                 <div class="format-image">
@@ -71,6 +78,7 @@
                 </section>
             </article>
         </section>
+        <!--SEGUNDA SECCION-->
         <section class="col">
             <article class="pin">
                 <div class="format-image">
@@ -99,7 +107,8 @@
                     <span class"more"></span>
                 </section>
             </article>
-            </section>
+        </section>
+        <!--TERCERA SECCION -->
         <section class="col">
             <article class="pin">
                 <div class="format-image">
@@ -115,7 +124,7 @@
                     <img src="https://i.pinimg.com/564x/ef/22/6b/ef226be4eaa43e0b3215530ffe7b936c.jpg" alt="">
                 </div>
                 <section class="pin-title">
-                    <span class="titulo">ESTA GENIAL</span>
+                    <span class="titulo">ESTÁ GENIAL</span>
                     <span class"more"></span>
                 </section>
             </article>
@@ -128,7 +137,8 @@
                     <span class"more"></span>
                </section>
             </article>
-        </section>  
+        </section>
+        <!--CUARTA SECCION-->
         <section class="col">
             <article class="pin">
                 <div class="format-image">
@@ -157,7 +167,7 @@
                     <span class"more"></span>
                </section>
             </article>
-        </section>  
+        </section>
 
     </main>
 </body>
