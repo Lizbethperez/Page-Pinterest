@@ -2,12 +2,29 @@ body{
     box-sizing: border-box;
 }
 header{
-    background-color: #CC2EFA;
+    background-color: #A475B2;
+    position: fixed;
+    width: 100%;
 }
+
+span {
+    color:#AE0E76;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    padding-left:2em;
+}
+
+select {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+  width: 25%;
+  height: 5%;
+
+}
+
 header > * {
   display:inline-block;
   text-align: center;
-  
 }
 
 header > h1 {
@@ -18,62 +35,69 @@ header > form {
     width:60%;
 
 }
-header > form > input{
-    width: 65%;
-}
+
 header > nav{
-    width: 20%;
-    padding-left: 5em;
     font-size: 1em;
+    padding-left: 5em;
+    width: 20%;
 }
 
 div img {
-    margin-top: 10%;
+
     border-radius: 5%;
+    margin-bottom: 3%;
     margin-left: 5%;
-    margin-bottom: 5%; 
+    margin-top: 0.5%;
     width: 100%;
-}
-.col {
-    float:left;
-    width: 20%;
-    margin: 1em 1em;
-}
-
-.format-image:hover {
-  transform: scale(1.1);
-  opacity: 0.5;
-}
-
-span {
-    padding-left:2em;
-    font-weight: bolder;
-    color:#AE0E76; 
 }
 
 header > nav a{
-   color:#AE0E76;
-   text-decoration: none;
+   color:black;
    font-weight: bolder;
+   text-decoration: none;
+   padding: 1em;
+
+
+}
+section > nav a {
+   background-color: #CAADD3;
+   border: 2px solid black;
+   border-radius: 5%;
+   color:#AE0E76;
+   display: inline-block;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 1em;
+   font-weight: bolder;
+   left:8em;
+   margin-top: 1.5em;
+   padding: 0.4em;
+   position: relative;
+   text-decoration: none;
+   text-align: center;
+   top:5em;
+   width: 12em;
 }
 
-a:hover {
+.navegator:hover {
+    background-color: #D2B5DB;
     border-radius: 50%;
-    background-color: #CA7CAF;
     opacity: 0.5%;
     padding: 0.5em;
 }
-section > nav a {
-    display: inline-block;
-    position: relative;
-    width: 10em;
-    left:5em;
-    top:1em;
-    border: 1px solid black;
-    border-radius: 5%;
-    color:#AE0E76;
-    text-decoration: none;
-    font-weight: bolder;
-    padding: 0.5em;
-    background-color: #CA7CAF;
+
+.col {
+    float:left;
+    margin: 8em 1em;
+    width: 20%;
+}
+
+.format-image:hover {
+  opacity: 0.5;
+  transform: scale(1.1);
+
+}
+
+#search-input {
+  width: 55em;
+  height: 2.3em;
 }
